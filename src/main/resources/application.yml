@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    aws:
+      region:
+        static: ap-northeast-2  # ??? AWS ??
+      credentials:
+        instance-profile: true  # EC2? IAM Role ??
